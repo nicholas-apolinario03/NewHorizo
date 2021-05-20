@@ -1,5 +1,5 @@
 function home() {
-    return <div>oioo</div>
+    return <link href="index.html"></link>
 
       
         
