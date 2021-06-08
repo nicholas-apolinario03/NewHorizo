@@ -1,9 +1,14 @@
-
+import 'style.css';
 function home() {
     return 
+	<html>
+	<head>
+<title>NewHorizon</title>
+</head>
 <body>
 	<span id='topo'></span>
-	<nav class="navbar">
+	<nav class="navbar" >
+		<input type="checkbox" id="check"/>
 		<label for="check" class="checkbtn">
 			<i class="fas fa-bars" ></i>
 		</label>
@@ -18,7 +23,7 @@ function home() {
 			
 			<center><p>clique na imagem para ver o projeto</p></center>
 			<a href="smartglass.html" class="cont"><img src="./img/smart.jpg" height="400" width="300" /></a>
-        </center>
+</center>
 	</section>
 	<footer>
 		
@@ -32,9 +37,9 @@ function home() {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+</html> 
 
       
-        
-
+    
 }
 export default home
